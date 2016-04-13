@@ -5,10 +5,10 @@ alert('Before we get started, make sure to note that your answers must be either
 var answer1 = prompt('Does Rafi have a bike?').toUpperCase();
 
 if(answer1 === 'Y' || answer1 === 'YES') {
-  alert('OHHH YEAHH');
+  alert('You bet, he rides all the time!');
   console.log('Does Rafi have a bike:' + answer1.toUpperCase());
 } else if(answer1 === 'N' || answer1 === 'NO'){
-  alert('WRONG');
+  alert('He actually does!');
   console.log('So, does Rafi have a bike?:' + answer1.toUpperCase());
 } else{
   alert('sorry, try a yes/no answer!');
@@ -17,11 +17,11 @@ if(answer1 === 'Y' || answer1 === 'YES') {
 var answer2 = prompt('Will Rafi be an expert coder?').toUpperCase();
 
 if(answer2 === 'Y' || answer2 === 'YES'){
-  alert('WOW yes you are an expert at predicting the future!');
+  alert('Yes! You are an expert at predicting the future!');
   console.log('Is this person great at predicting the future:' + answer2.toUpperCase());
 }
 else if(answer2 === 'N' || answer2 === 'NO'){
-  alert('Nah, you best think again');
+  alert('Have faith!');
   console.log('This person is ' + answer2 + ' very smart');
 }
 else{
