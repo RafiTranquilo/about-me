@@ -69,4 +69,29 @@ else if( answer5 === 'N' || answer5 === 'NO'){
   alert('try again!');
 }
 
+/* Made a question involving a while loop with 4 chances for the user to get the correct answer
+*/
+var guessTry = 0;
+var age = 24;
+var question6;
+
+while(guessTry < 4){
+  question6 = parseInt(prompt('What\'s my age again?'));
+  if(isNaN(question6)){
+    alert('Try guessing a number!');
+  }
+  else if(question6 === 24){
+    alert('You\'re right! congrats!');
+    break;
+  }
+  else if(question6 > 24){
+    alert('Too high, try again!');
+  }
+  else{
+    alert('Too low, try a little higher!');
+  }
+
+  guessTry++;
+}
+
 alert('Thanks for playing!');
