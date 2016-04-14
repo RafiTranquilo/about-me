@@ -6,3 +6,7 @@ I enjoy a nice bowl of ice cream.
 What a substantial change we've made here. A great change for testing out git abilities.
 
 Another random line of text
+
+Pairing Session 04-14
+  Driver: Michael Mailman
+  Navigator: Rafi Ronquillo
