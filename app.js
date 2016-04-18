@@ -1,7 +1,12 @@
 var totalCorrect = 0;
 var totalWrong = 0;
 
-var yesNoQuestions = [['Does Rafi have a bike?', 'YES'],['Will Rafi be an expert coder?', 'YES'],['Does slow and steady win the race?','YES'],['Does Rafi live in Seattle?', 'YES'],['Does Rafi have a cat?', 'NO']];
+var yesNoQuestions = [
+  ['Does Rafi have a bike?', 'YES'],
+  ['Will Rafi be an expert coder?', 'YES'],
+  ['Does slow and steady win the race?','YES'],
+  ['Does Rafi live in Seattle?', 'YES'],
+  ['Does Rafi have a cat?', 'NO']];
 
 var possibleResponses = ['Y','YES','N','NO'];
 

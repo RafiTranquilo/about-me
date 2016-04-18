@@ -1,0 +1,30 @@
+nav {
+  background-color: lightgrey;
+  font-weight:bold;
+  font:helvetica;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+nav>ul>li {
+  display:inline;
+}
+
+a:hover{
+color:mintcream;
+}
+
+#mainpic {
+margin:auto;
+}
+
+header {
+  font-size: 60px;
+  font-family:sans-serif;;
+  font:helvetica;
+  text-align: center;
+}
+ body {
+   background-color: #e6e6e6;
+ }
